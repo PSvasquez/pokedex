@@ -15,7 +15,7 @@ $(function() {
   // TODO: Add speed here
   // TODO: Add attack here
   // TODO: Add defense here
-  $(".pokemon-ev-spd").append[45]
+  $(".pokemon-spd").append(pokemon.speed[1].to)
   // TODO: Add ability names here to the <ul> with class .ability-names
   
   // TODO: Add egg group names here to a <ul> that you created
