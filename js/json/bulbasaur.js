@@ -58,7 +58,7 @@ var bulbasaur = {
     name: "Plant",
     resource_uri: "/api/v1/egg/7/"
   }, {
-    name: "Monster",
+    name: "monster",
     resource_uri: "/api/v1/egg/1/"
   }],
   ev_yield: "1 special attack",

@@ -11,18 +11,20 @@ $(function() {
   $(".pokemon-name").append(pokemon.name);
   $(".pokemon-evolves").append(pokemon.evolutions[0].to);
   $(".pokemon-ev-level").append(pokemon.evolutions[0].to) // Replace the ?
-  // TODO: Add evolution level here
-  // TODO: Add speed here
-  // TODO: Add attack here
-  // TODO: Add defense here
-  $(".pokemon-spd").append(pokemon.speed[1].to)
+  $(".pokemon-speed").append(pokemon.speed);
+  $(".pokemon-attack").append(pokemon.attack)
+  $(".pokemon-defense").append(pokemon.defense)
   // TODO: Add ability names here to the <ul> with class .ability-names
   
   // TODO: Add egg group names here to a <ul> that you created
-
+  $(".pokemon-egg").append(pokemon.egg_groups.to)
   // TODO: Add move names in alphabetical order here to the existing <ul>
+  for (var i=0; i<bulbasaur.moves.length; i++) {
+    $(".moves").append(bulbasaur.moves[1]);
+  }
+  $("pokemon-moves").append([.to])
   // TODO: Add ONLY level up move names to the <ul> you created
-
+  $("pokemon-moves").append([])
   // Now... take a deep breath and go back to your move lists.
   // TODO: Find a way to use variables to make your code more readable!
 
